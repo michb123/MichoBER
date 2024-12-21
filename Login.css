@@ -1,0 +1,107 @@
+
+
+.login-container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark overlay */
+  }
+  
+  .login-form {
+    background: #1e1e1e; /* Dark background for form */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    max-width: 400px; /* Maximum width */
+    width: 100%;
+  }
+  
+  /* Text and Labels */
+  .login-form p {
+    font-size: 24px; /* Slightly smaller for better hierarchy */
+    font-weight: bold;
+    color: #e0e0e0; /* Light color for contrast */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .login-form .message {
+    font-size: 16px;
+    color: #b0b0b0; /* Light grey for secondary text */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ddd;
+    display: block;
+  }
+  
+  /* Input Fields */
+  .login-form input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px; /* More subtle rounding */
+    font-size: 16px;
+    background: #2a2a2a; /* Slightly lighter background for inputs */
+    color: #fff;
+    width: calc(100% - 24px);
+  }
+  
+  .login-form input::placeholder {
+    color: #888;
+  }
+  
+  /* Submit Button */
+  .login-form button {
+    padding: 12px;
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 100%;
+  }
+  
+  .login-form button:hover {
+    background: linear-gradient(45deg, #0056b3, #003d7a);
+  }
+  
+  .login-form button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Register Link */
+  .login-form .register-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .login-form .register-link a {
+    color: #007bff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .login-form .register-link a:hover {
+    text-decoration: none;
+  }
+  .login-container-login {
+    background-image: url('C:\Users\michb\Documents\react\senior33\src\images\R (1).jpeg'); /* Adjust path as needed */
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+  
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+  }

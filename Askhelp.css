@@ -1,0 +1,164 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header Styles */
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  z-index: 10;
+  background: rgba(76, 143, 198, 0.7);
+}
+
+/* Logo Style */
+
+/* Scroll behavior for header */
+/* Container and background setup */
+.askhelp-container {
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.help-form-container {
+  background-color: #f1f7fd; /* Soft light blue background */
+  padding: 30px;
+  border-radius: 20px;
+  width: 640px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+  border: 3px solid #89b9f3; /* Blue border to match the form */
+  margin: 90px auto; /* Center horizontally and add top/bottom space */
+}
+
+.help-form {
+  background-color: #d3e4f7; /* Light soft blue background for the form */
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15); /* Soft shadow for the form */
+}
+
+/* Form group and label positioning */
+.form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column; /* Ensure label and input stack vertically */
+}
+
+.form-group label {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 8px;
+  color: #2c3e50; /* Darker blue for contrast */
+  text-align: left; /* Align labels to the left */
+}
+
+.form-group select,
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 2px solid #bbcce5; /* Subtle border */
+  font-size: 16px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.form-group select:focus,
+.form-group input:focus {
+  border-color: #3a75a1; /* Change border color on focus */
+}
+
+/* Ensure the checkbox and label align to the left */
+/* Ensure the checkbox and label align to the left */
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Ensure the contents are aligned to the left */
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; /* Space between the checkbox and the label */
+}
+
+.checkbox-group label {
+  font-size: 16px;
+  margin-left: 5px; /* Space between the checkbox and the label */
+  text-align: left; /* Ensures label text is aligned to the left */
+}
+
+
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a90e2; /* Nice blue for the button */
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #357ab7; /* Slightly darker blue on hover */
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 10px; /* Reduced padding */
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content h2 {
+  margin: 0;
+  font-size: 1.5em; /* Reduced font size */
+}
+
+.footer-content p {
+  margin: 5px 0; /* Reduced margin */
+}
+
+.social-icons {
+  margin-bottom: 590px; /* Reduced margin */
+}
+
+.social-icons a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 8px; /* Reduced margin */
+  font-size: 1.2em; /* Reduced font size */
+}
+
+.social-icons a:hover {
+  color: #ddd;
+}

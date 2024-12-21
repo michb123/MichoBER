@@ -1,0 +1,87 @@
+
+.product-container {
+    flex: 1 1 calc(15% - 10px); /* Keep it flexible, 4 items per row */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px; /* Reduced padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Reduced width */
+    height: 550px; /* Adjust height dynamically based on content */
+    margin: 0 10px 20px 10px;
+}
+
+/* Product Image */
+.product-image img {
+    width: 50%; /* Adjust width to make the image slightly larger */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover; /* Ensures images fit nicely inside the box */
+}
+
+/* Product Details */
+.product-details {
+    text-align: center;
+    padding: 15px 0; /* Adjusted padding for better spacing */
+}
+
+.product-details h2 {
+    font-size: 1.5rem; /* Increased title font size */
+    margin-bottom: 10px; /* Adjusted margin */
+}
+
+.product-details .description {
+    font-size: 1.7rem; /* Increased description font size */
+    margin-bottom: 15px;
+}
+
+.product-details .price {
+    font-size: 1.3rem; /* Increased price font size */
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+/* Prices */
+.old-price {
+    text-decoration: line-through;
+    color: #d3d3d3;
+    font-size: 1.2rem; /* Increased font size for old price */
+    margin-bottom: 5px; /* Added margin for spacing */
+    display: block;
+    font-size:1.5rem ; /* Ensures it appears above the new price */
+}
+
+.new-price {
+    color: red;
+    font-size: 1.5rem; /* Increased font size for new price */
+    font-weight: bold;
+}
+
+/* Add to Cart Button */
+.product-details .add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px; /* Increased padding */
+    font-size: 1rem; /* Increased font size */
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: auto;  /* Ensures button fits the content */
+}
+
+.product-details .add-to-cart:hover {
+    background-color: #45a049;
+}
+
+.small-background {
+    background: url('C:\Users\michb\Documents\react\senior33\src\images\ddt-1024x683.jpg') no-repeat center center; /* Add your image */
+    background-size: cover; /* Ensure the image covers the container */
+    height: 500px; /* Adjust the height of the background */
+    width: 100%; /* Full width under the navbar */
+    position: relative; /* Ensure it's positioned properly */
+    margin-top: 0; /* Start directly under the navbar */
+}
+

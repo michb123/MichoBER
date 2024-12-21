@@ -1,0 +1,126 @@
+.add-product-container {
+    max-width: 500px; /* Reduced from 600px */
+    margin: auto;
+    background: #ffffff;
+    padding: 15px; /* Reduced padding */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    margin-top: 90px;
+    margin-bottom: 40px; /* Reduced bottom margin */
+}
+
+.add-product-form-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Reduced font size specifically for price label */
+label[for="price"] {
+    font-size: 1rem; /* Adjusted font size for price label */
+}
+
+.add-product-form-group input[type="text"],
+.add-product-form-group input[type="number"],
+.add-product-form-group textarea {
+    width: 80%;
+    padding: 10px; /* Reduced padding */
+    border: 2px solid #007bff;
+    border-radius: 6px; /* Reduced border-radius */
+    font-size: 1.5rem; /* Slightly smaller font size */
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.add-product-form-group label {
+    display: block; /* Make label a block element */
+    margin-bottom: 5px; /* Space below the label */
+    font-weight: bold; /* Bold label text */
+}
+
+.add-product-form-group input,
+.add-product-form-group select,
+.add-product-form-group textarea {
+    width: 80%; /* Full width */
+    padding: 10px; /* Inner padding */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    transition: border-color 0.3s ease; /* Smooth transition */
+}
+
+.add-product-form-group input:focus,
+.add-product-form-group select:focus,
+.add-product-form-group textarea:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing only */
+    min-height: 100px; /* Minimum height for the textarea */
+}
+
+.add-product-submit-button {
+    width: 100%; /* Full width */
+    padding: 10px;
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.add-product-submit-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+.add-product-price-input {
+    width: 70%; /* Reduced width for price input */
+    padding: 10px;
+    border: 2px solid #ced4da;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    background-color: #f8f9fa;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; 
+    max-width: 80%; /* Removes the spin buttons in most browsers */
+}
+
+.add-product-form-group input[type="number"]:focus {
+    border-color: #80bdff;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+.upload-button {
+    width: 100%; /* Full width */
+    padding: 12px;
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-bottom: 20px; /* Spacing below the button */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}

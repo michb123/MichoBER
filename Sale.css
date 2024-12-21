@@ -1,0 +1,94 @@
+/* Ensure Navbar and Footer are not affected by the general container */
+.Navbar, .Footer {
+    position: relative; /* Prevent the flexbox from affecting them */
+    z-index: 1; /* Make sure they're on top if needed */
+}
+
+/* Container Styling */
+.container {
+    text-align: center;
+    padding: 20px;
+    padding-top: 80px; /* Add some space to account for the Navbar */
+}
+
+/* Reset styles for the whole page */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    background: linear-gradient(to right, #74ebd5, #9face6);  
+}
+
+/* Style the Products Section */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Product Card Styling */
+.product {
+    background-color: #3b82f6; 
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.price {
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.oldPrice {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+.newPrice {
+    color: #f87171; 
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #444;
+}

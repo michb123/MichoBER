@@ -1,0 +1,31 @@
+.footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+margin-bottom: 0px;
+padding-top: 900px;
+  }
+  
+  .footer-content h2 {
+    margin: 0;
+    font-size: 1.5em; /* Footer heading font size */
+  }
+  
+  .footer-content p {
+    margin: 5px 0; /* Reduced margin */
+    font-size: 14px; /* Footer text font size */
+  }
+  
+  .footer-content p a {
+    color: #4a90e2; /* Link color */
+    text-decoration: none;
+  }
+  
+  .footer-content p a:hover {
+    color: #357ab7; /* Darker blue on hover */
+  }
+  

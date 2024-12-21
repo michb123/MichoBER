@@ -1,0 +1,76 @@
+/* General Reset */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Navbar styles */
+.navbarrr {
+    background-color: rgba(76, 143, 198, 0.7); /* Semi-transparent background */
+    display: flex;
+    justify-content: center; /* Center-align the navigation */
+    padding: 40px 0;
+    position: sticky; /* Navbar stays at the top on scroll */
+    top: 0;
+    z-index: 100;
+    padding-top: 30px; /* Ensure it's above other content */
+    padding-left: 580px;
+}
+
+.navbarrr ul {
+    display: flex;
+margin-left: 450px;
+}
+
+.navbarrr ul li {
+    position: relative;
+}
+
+.navbarrr ul li a {
+    color: white;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.navbarrr ul li a:hover {
+    background-color: #3A75A1;
+    color: #F1F1F1;
+    transform: scale(1.1);
+}
+
+.navbarrr ul li a:active {
+    transform: scale(0.95);
+}
+
+/* Hero Section */
+.homeee {
+    background: url('C:\Users\michb\Documents\react\senior33\src\images\download.jpg') no-repeat center center; /* Add background image */
+    background-size: cover; /* Ensure the image covers the section */
+    min-height: 84vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Makes sure content is centered vertically */
+}
+
+.hero-contenttt {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px; /* Adjust height as needed */
+    color: white;
+}
+
+.hero-contenttt h1 {
+    font-size: 48px;
+    margin-right: 1000px;
+    margin-bottom: 259px;
+}
